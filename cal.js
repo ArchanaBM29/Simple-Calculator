@@ -5,7 +5,7 @@ let body = document.getElementById("body");
         let container = document.getElementById("container");
         container.style.textAlign = "center";
         container.style.marginTop = "200px";
-        container.style.border="2px, black,solid";
+        container.style.border="2px solid black";
         container.style.width="fit-content";
         container.style.marginLeft="40%";
         
