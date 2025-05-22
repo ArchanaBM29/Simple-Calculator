@@ -5,14 +5,14 @@ let body = document.getElementById("body");
         let container = document.getElementById("container");
         container.style.textAlign = "center";
         container.style.marginTop = "200px";
-        container.style.border="2px solid black";
+        container.style.border="3px, blue ,solid";
         container.style.width="fit-content";
         container.style.marginLeft="40%";
         
 
         let display = document.getElementById("display");
-        display.style.width = "180px";
-        display.style.height = "50px";
+        display.style.width = "280px";
+        display.style.height = "70px";
 
         let expression = "";
 
@@ -116,7 +116,7 @@ let body = document.getElementById("body");
 
 
         let clear=document.getElementById("clear");
-        clear.style.width="230px"
+        clear.style.width="240px"
         
         clear.addEventListener("click", () => {
             expression = "";
